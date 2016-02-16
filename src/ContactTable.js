@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import ContactRow from './ContactRow';
 
+import css from '../assets/css/table.css';
+
 export default class ContactTable extends Component{
     constructor(props){
         super(props);
